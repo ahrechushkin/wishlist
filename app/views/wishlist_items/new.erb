@@ -1,0 +1,9 @@
+<h1>Add a new item to wishlist</h1>
+<hr/>
+
+<form class="wishlist-item-form" action="/wishlists/<%= @wishlist.id %>/items" method="post">
+  <input type="text" name="wishlist_item[name]" placeholder="Enter wishlist name">
+  <br/>
+  <textarea name="wishlist_item[description]" rows="12" cols="40"></textarea>
+  <input type="submit" value="Create">
+</form>

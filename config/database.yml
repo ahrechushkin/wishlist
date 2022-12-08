@@ -1,0 +1,9 @@
+development:
+ adapter: sqlite3
+ database: wishlist_development
+test:
+ adapter: sqlite3
+ database: wishlist_test
+production:
+ adapter: postgresql
+ database: wishlist_production

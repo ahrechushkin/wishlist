@@ -1,0 +1,11 @@
+<h1>Wishlists</h1>
+<hr/>
+<a href="/wishlists/new">Add new</a>
+<br/>
+<% @wishlists.each do |wishlist| %>
+  <div class="wishlist">
+    <h3><%=wishlist.name%></h3>
+    <p><%=wishlist.description%></p>
+    <a href="/wishlists/<%=wishlist.id%>">Show</a>
+  </div>
+<% end %>
