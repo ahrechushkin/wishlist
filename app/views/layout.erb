@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
- <head>
- <title>Wishlist App</title>
- </head>
- <body>
- <%= yield %>
- </body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/index.css" />
+    <title>Simple Wishlist</title>
+  </head>
+  <body>
+    <%= erb :"shared/header" %>
+    <%= yield %>
+  </body>
 </html>

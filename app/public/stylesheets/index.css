@@ -1,0 +1,73 @@
+.header-nav {
+  background-color: green;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.header-nav > .logo {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 1%;
+  margin-left: 2%;
+}
+
+.login-form, .signup-form {
+  position: relative;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+}
+
+.login-form, .signup-form > .logo {
+  padding-left: 10%;
+}
+
+.login-form > .input-field {
+  height: 20px;
+  width: 300px;
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+.signup-form > .input-field {
+  height: 20px;
+  width: 300px;
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  margin-top: 2%;
+  background-color: green;
+  width: 80px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.submit-btn:hover {
+  background-color: rgb(2, 85, 2);
+}
+
+.signup-suggestion {
+  margin-left: 45%;
+}
+
+.signup-hr {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.logout-form {
+  text-align: right;
+  margin-right: 2%;
+  margin-top: -1.5%;
+  border-width: 0ch;
+}
+
+.logout-btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 7px;
+}
+

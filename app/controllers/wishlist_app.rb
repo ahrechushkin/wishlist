@@ -82,6 +82,11 @@ class WishlistApp < Sinatra::Base
     end
   end
 
+  post '/logout' do
+    session.delete(:user_id)
+    redirect '/login'
+  end
+
   def current_user
     User.find_by(id: session[:user_id])
   end
